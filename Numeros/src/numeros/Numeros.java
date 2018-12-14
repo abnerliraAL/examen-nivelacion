@@ -18,21 +18,7 @@ public class Numeros {
      */
     public static void main(String[] args) {
        
-        Scanner leer= new Scanner(System.in);
         
-        int limite =0;
-       
-       
-       System.out.println("ingrese el numero limite");
-       limite=leer.nextInt();
-            
-       for(int i=0;i<limite;i++)
-       {
-    if(i%2==1){//4%2=0 3%2=1s
-        System.out.println("el numero"+i+" es par");
-    }
-    System.out.println("el numero"+i+" es impar");
-       }
        
     
        
